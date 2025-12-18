@@ -38,7 +38,7 @@ export function Hero() {
           
           <div className="flex items-center justify-center gap-4 mt-8 animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <a
-              href="https://github.com"
+              href="https://github.com/KlevisKoloshi1"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -47,7 +47,7 @@ export function Hero() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://gitlab.com"
+              href="https://gitlab.com/KlevisKolosh1"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
