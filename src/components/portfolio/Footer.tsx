@@ -10,7 +10,7 @@ export function Footer() {
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <span>© {currentYear}</span>
             <span>•</span>
-            <span>Backend Developer specializing in Laravel & PostgreSQL</span>
+            <span>Klevis Koloshi</span>
           </div>
           
           <div className="flex items-center gap-4">
