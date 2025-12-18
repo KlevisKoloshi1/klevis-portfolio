@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Github, Gitlab, Send, Loader2 } from "lucide-react";
+import { Mail, Github, Gitlab, Linkedin, Send, Loader2 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -200,6 +200,27 @@ export function Contact() {
                         className="text-muted-foreground hover:text-primary transition-colors text-sm"
                       >
                         gitlab.com/KlevisKolosh1
+                      </a>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              
+              <Card className="hover:border-primary/50 transition-colors">
+                <CardContent className="p-6">
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+                      <Linkedin className="h-6 w-6 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold">LinkedIn</h3>
+                      <a
+                        href="https://www.linkedin.com/in/klevis-koloshi-91006235a/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                      >
+                        linkedin.com/in/kleviskoloshi
                       </a>
                     </div>
                   </div>
