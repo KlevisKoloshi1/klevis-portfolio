@@ -133,7 +133,7 @@ export function Contact() {
                         href="mailto:your.email@example.com"
                         className="text-muted-foreground hover:text-primary transition-colors text-sm"
                       >
-                        your.email@example.com
+                        kleviskoloshi8@gmail.com
                       </a>
                     </div>
                   </div>
@@ -149,12 +149,12 @@ export function Contact() {
                     <div>
                       <h3 className="font-semibold">GitHub</h3>
                       <a
-                        href="https://github.com"
+                        href="https://github.com/KlevisKoloshi1"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-primary transition-colors text-sm"
                       >
-                        github.com/yourusername
+                        github.com/KlevisKoloshi1
                       </a>
                     </div>
                   </div>
@@ -170,12 +170,12 @@ export function Contact() {
                     <div>
                       <h3 className="font-semibold">GitLab</h3>
                       <a
-                        href="https://gitlab.com"
+                        href="https://gitlab.com/KlevisKolosh1"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-primary transition-colors text-sm"
                       >
-                        gitlab.com/yourusername
+                        gitlab.com/KlevisKolosh1
                       </a>
                     </div>
                   </div>
