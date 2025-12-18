@@ -19,8 +19,20 @@ export function Contact() {
     const form = event.currentTarget;
     const formData = new FormData(form);
 
-    // Web3Forms configuration (from provided snippet)
-    formData.append("access_key", "a805a088-0be2-4a0d-8929-0e40a554941b");
+    // Web3Forms configuration
+    const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
+    if (!accessKey) {
+      setResult("Error");
+      toast({
+        title: "Configuration Error",
+        description: "Web3Forms access key is not configured. Please check your environment variables.",
+        variant: "destructive",
+      });
+      setIsSubmitting(false);
+      return;
+    }
+
+    formData.append("access_key", accessKey);
     formData.append("to", "kleviskoloshi8@gmail.com");
     formData.append("subject", "New message from portfolio contact form");
 
