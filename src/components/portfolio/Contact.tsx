@@ -9,14 +9,20 @@ import { useToast } from "@/hooks/use-toast";
 
 export function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [result, setResult] = useState("");
   const { toast } = useToast();
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
     setIsSubmitting(true);
 
-    const form = e.currentTarget;
+    const form = event.currentTarget;
     const formData = new FormData(form);
+
+    // Web3Forms configuration (from provided snippet)
+    formData.append("access_key", "a805a088-0be2-4a0d-8929-0e40a554941b");
+    formData.append("to", "kleviskoloshi8@gmail.com");
+    formData.append("subject", "New message from portfolio contact form");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -27,15 +33,18 @@ export function Contact() {
       const data = await response.json();
 
       if (data.success) {
+        setResult("Success!");
         toast({
           title: "Message sent!",
           description: "Thank you for reaching out. I'll get back to you soon.",
         });
         form.reset();
       } else {
+        setResult("Error");
         throw new Error("Failed to send message");
       }
     } catch {
+      setResult("Error");
       toast({
         title: "Error",
         description: "Failed to send message. Please try again or email me directly.",
@@ -65,25 +74,6 @@ export function Contact() {
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-4">
-                  {/* Web3Forms configuration */}
-                  <input
-                    type="hidden"
-                    name="access_key"
-                    value={import.meta.env.VITE_WEB3FORMS_ACCESS_KEY}
-                  />
-                  {/* Recipient email for notifications */}
-                  <input
-                    type="hidden"
-                    name="to"
-                    value="kleviskoloshi8@gmail.com"
-                  />
-                  {/* Set a helpful subject line in your inbox */}
-                  <input
-                    type="hidden"
-                    name="subject"
-                    value="New message from portfolio contact form"
-                  />
-                  
                   <div className="space-y-2">
                     <Label htmlFor="name">Name</Label>
                     <Input
@@ -132,6 +122,12 @@ export function Contact() {
                       </>
                     )}
                   </Button>
+
+                  {result && (
+                    <p className="text-sm text-muted-foreground">
+                      {result}
+                    </p>
+                  )}
                 </form>
               </CardContent>
             </Card>
