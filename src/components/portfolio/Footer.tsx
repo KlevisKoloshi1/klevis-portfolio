@@ -10,7 +10,7 @@ export function Footer() {
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <span>© {currentYear}</span>
             <span>•</span>
-            <span>Klevis Koloshi</span>
+            <span>Klevis Koloshi, Backend Developer</span>
           </div>
           
           <div className="flex items-center gap-4">
