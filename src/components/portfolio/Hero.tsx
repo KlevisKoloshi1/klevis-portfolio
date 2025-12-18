@@ -1,4 +1,4 @@
-import { ArrowDown, Github, Gitlab } from "lucide-react";
+import { ArrowDown, Github, Gitlab, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Hero() {
@@ -54,6 +54,15 @@ export function Hero() {
               aria-label="GitLab"
             >
               <Gitlab className="h-6 w-6" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/klevis-koloshi-91006235a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="h-6 w-6" />
             </a>
           </div>
         </div>
