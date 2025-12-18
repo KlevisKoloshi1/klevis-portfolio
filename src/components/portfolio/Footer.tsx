@@ -1,4 +1,4 @@
-import { Github, Gitlab, Heart } from "lucide-react";
+import { Github, Gitlab, Linkedin, Heart } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -31,6 +31,15 @@ export function Footer() {
               aria-label="GitLab"
             >
               <Gitlab className="h-5 w-5" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/klevis-koloshi-91006235a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="h-5 w-5" />
             </a>
           </div>
         </div>
