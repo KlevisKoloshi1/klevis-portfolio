@@ -65,8 +65,24 @@ export function Contact() {
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-4">
-                  {/* Replace with your Web3Forms access key */}
-                  <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+                  {/* Web3Forms configuration */}
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value={import.meta.env.VITE_WEB3FORMS_ACCESS_KEY}
+                  />
+                  {/* Recipient email for notifications */}
+                  <input
+                    type="hidden"
+                    name="to"
+                    value="kleviskoloshi8@gmail.com"
+                  />
+                  {/* Set a helpful subject line in your inbox */}
+                  <input
+                    type="hidden"
+                    name="subject"
+                    value="New message from portfolio contact form"
+                  />
                   
                   <div className="space-y-2">
                     <Label htmlFor="name">Name</Label>
@@ -130,7 +146,7 @@ export function Contact() {
                     <div>
                       <h3 className="font-semibold">Email</h3>
                       <a
-                        href="mailto:your.email@example.com"
+                        href="mailto:kleviskoloshi8@gmail.com"
                         className="text-muted-foreground hover:text-primary transition-colors text-sm"
                       >
                         kleviskoloshi8@gmail.com
