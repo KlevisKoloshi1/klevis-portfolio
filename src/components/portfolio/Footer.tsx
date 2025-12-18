@@ -36,9 +36,7 @@ export function Footer() {
         </div>
         
         <div className="mt-4 text-center">
-          <p className="text-xs text-muted-foreground flex items-center justify-center gap-1">
-            Built with <Heart className="h-3 w-3 text-destructive" /> using React & Tailwind CSS
-          </p>
+          
         </div>
       </div>
     </footer>
