@@ -15,7 +15,8 @@ export function Hero() {
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in">
-            <span className="text-foreground">Backend Developer</span>
+            <span className="text-foreground">Klevis Koloshi
+               Backend Developer</span>
             <br />
             <span className="text-gradient font-mono">(PHP / Laravel)</span>
           </h1>
