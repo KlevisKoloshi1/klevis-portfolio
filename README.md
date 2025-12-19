@@ -224,7 +224,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - Email: kleviskoloshi8@gmail.com
 - GitHub: [@KlevisKoloshi1](https://github.com/KlevisKoloshi1)
-- GitLab: [@KlevisKolosh1](https://gitlab.com/KlevisKolosh1)
 - LinkedIn: [Klevis Koloshi](https://www.linkedin.com/in/klevis-koloshi-91006235a/)
 
 ## 🙏 Acknowledgments
