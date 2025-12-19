@@ -36,6 +36,8 @@ export function Contact() {
     formData.append("to", "kleviskoloshi8@gmail.com");
     formData.append("subject", "New message from portfolio contact form");
 
+    //try catch for form submission
+
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
