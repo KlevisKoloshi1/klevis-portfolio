@@ -15,7 +15,7 @@ interface Project {
 const projects: Project[] = [
   {
     title: "Invoice Management System",
-    description: "A comprehensive backend system for managing invoices, clients, and payments with automated calculations and reporting.",
+    description: "A comprehensive Laravel-based invoice management system with e-fiscalization integration for Albanian tax authorities. This system enables businesses to manage clients, create invoices, import invoices from Excel files, and fiscalize invoices in bulk.",
     techStack: ["Laravel", "PostgreSQL", "REST API"],
     features: ["CRUD Operations", "Authentication", "PDF Generation", "Data Validation"],
     githubUrl: "https://github.com/KlevisKoloshi1/invoice_klevis",
