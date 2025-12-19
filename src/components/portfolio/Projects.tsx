@@ -18,7 +18,7 @@ const projects: Project[] = [
     description: "A comprehensive backend system for managing invoices, clients, and payments with automated calculations and reporting.",
     techStack: ["Laravel", "PostgreSQL", "REST API"],
     features: ["CRUD Operations", "Authentication", "PDF Generation", "Data Validation"],
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/KlevisKoloshi1/invoice_klevis",
   },
   {
     title: "REST API with Authentication",
