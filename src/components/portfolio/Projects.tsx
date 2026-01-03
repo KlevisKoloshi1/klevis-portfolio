@@ -33,7 +33,7 @@ const projects: Project[] = [
     description: "Automated task scheduling and cron job management system with monitoring and notification capabilities.",
     techStack: ["Laravel", "PostgreSQL", "Redis"],
     features: ["Cron Jobs", "Email Notifications", "Task Queue", "Monitoring"],
-    gitlabUrl: "https://gitlab.com",
+    githubUrl: "https://github.com",
   },
 ];
 
