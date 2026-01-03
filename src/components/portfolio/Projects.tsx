@@ -27,13 +27,7 @@ const projects: Project[] = [
     features: ["JWT Auth", "Role-Based Access", "Rate Limiting", "API Documentation"],
     githubUrl: "https://github.com/KlevisKoloshi1/Auth_API",
   },
-  {
-    title: "Data Import & Validation System",
-    description: "Robust system for importing, validating, and processing large datasets from various file formats with error handling.",
-    techStack: ["Laravel", "PostgreSQL", "Queue Jobs"],
-    features: ["CSV/Excel Import", "Data Validation", "Background Jobs", "Error Logging"],
-    githubUrl: "https://github.com",
-  },
+  
   {
     title: "Task Scheduling System",
     description: "Automated task scheduling and cron job management system with monitoring and notification capabilities.",
