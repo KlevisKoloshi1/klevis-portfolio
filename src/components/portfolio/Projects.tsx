@@ -25,7 +25,7 @@ const projects: Project[] = [
     description: "Secure RESTful API implementation with token-based authentication, role-based access control, and comprehensive documentation.",
     techStack: ["Laravel", "Sanctum", "PostgreSQL"],
     features: ["JWT Auth", "Role-Based Access", "Rate Limiting", "API Documentation"],
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/KlevisKoloshi1/Auth_API",
   },
   {
     title: "Data Import & Validation System",
