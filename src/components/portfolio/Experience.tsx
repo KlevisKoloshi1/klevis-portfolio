@@ -12,7 +12,7 @@ const responsibilities = [
   "Deployed and worked in Linux environments",
 ];
 
-const technologies = ["PHP", "Laravel", "PostgreSQL", "REST APIs", "Git", "GitHub", "GitLab", "Ubuntu", "Virtual Machines"];
+const technologies = ["PHP", "Laravel", "PostgreSQL", "REST APIs", "Git", "GitHub", "GitLab", "Ubuntu", "Virtual Machines", "DBeaver"];
 
 export function Experience() {
   return (
