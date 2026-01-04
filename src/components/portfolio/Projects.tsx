@@ -33,7 +33,7 @@ const projects: Project[] = [
     description: "Automated task scheduling and cron job management system with monitoring and notification capabilities.",
     techStack: ["Laravel", "PostgreSQL", "Redis"],
     features: ["Cron Jobs", "Email Notifications", "Task Queue", "Monitoring"],
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/KlevisKoloshi1/Task_Scheduling_System",
   },
 ];
 
