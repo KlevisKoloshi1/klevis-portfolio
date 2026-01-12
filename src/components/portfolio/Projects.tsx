@@ -23,7 +23,7 @@ const projects: Project[] = [
   {
     title: "REST API with Authentication",
     description: "Secure RESTful API implementation with token-based authentication, role-based access control, and comprehensive documentation.",
-    techStack: ["Laravel", "Sanctum", "PostgreSQL"],
+    techStack: ["Laravel", "Sanctum", "PostgreSQL", "Laravel Blade"],
     features: ["JWT Auth", "Role-Based Access", "Rate Limiting", "API Documentation"],
     githubUrl: "https://github.com/KlevisKoloshi1/Auth_API",
   },
