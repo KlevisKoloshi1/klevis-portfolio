@@ -10,6 +10,7 @@ const responsibilities = [
   "Created business logic using services, controllers, and models",
   "Collaborated using Git, GitHub, and GitLab",
   "Deployed and worked in Linux environments",
+  "Created and managed Dockerfiles and docker-compose setups for Laravel, PostgreSQL, and Redis"
 ];
 
 const technologies = ["PHP", "Laravel", "PostgreSQL", "REST APIs", "Git", "GitHub", "GitLab", "Ubuntu", "Virtual Machines", "DBeaver", "MobaXterm", "Docker"];
