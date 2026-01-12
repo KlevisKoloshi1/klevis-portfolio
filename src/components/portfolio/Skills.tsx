@@ -7,7 +7,8 @@ import {
   Terminal, 
   Lock, 
   Layers, 
-  FileCode 
+  FileCode,
+  Container
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -19,6 +20,7 @@ const skillCategories = [
       { name: "Laravel", icon: FileCode },
       { name: "PostgreSQL", icon: Database },
       { name: "REST APIs", icon: Server },
+      { name: "Redis", icon: Database },
     ],
   },
   {
@@ -28,6 +30,7 @@ const skillCategories = [
       { name: "GitHub", icon: Github },
       { name: "GitLab", icon: GitBranch },
       { name: "Linux", icon: Terminal },
+      { name: "Docker", icon: Container },
     ],
   },
   {
@@ -37,6 +40,7 @@ const skillCategories = [
       { name: "API Security", icon: Lock },
       { name: "Authentication", icon: Lock },
       { name: "DB Migrations", icon: Database },
+      { name: "Containerization", icon: Container },
     ],
   },
 ];
