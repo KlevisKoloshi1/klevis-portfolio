@@ -24,7 +24,7 @@ const projects: Project[] = [
     title: "REST API with Authentication",
     description: "Secure RESTful API implementation with token-based authentication, role-based access control, and comprehensive documentation.",
     techStack: ["Laravel", "Sanctum", "PostgreSQL"],
-    features: ["JWT Auth", "Role-Based Access", "Rate Limiting", "API Documentation", "Laravel Blade"],
+    features: ["JWT Auth", "Role-Based Access", "Rate Limiting", "API Documentation"],
     githubUrl: "https://github.com/KlevisKoloshi1/Auth_API",
   },
   
@@ -32,7 +32,7 @@ const projects: Project[] = [
     title: "Task Scheduling System",
     description: "Automated task scheduling and cron job management system with monitoring and notification capabilities.",
     techStack: ["Laravel", "PostgreSQL", "Redis"],
-    features: ["Cron Jobs", "Email Notifications", "Task Queue", "Monitoring", "Laravel Blade"],
+    features: ["Cron Jobs", "Email Notifications", "Task Queue", "Monitoring"],
     githubUrl: "https://github.com/KlevisKoloshi1/Task_Scheduling_System",
   },
 ];
