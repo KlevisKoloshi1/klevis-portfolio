@@ -35,6 +35,13 @@ const projects: Project[] = [
     features: ["Cron Jobs", "Email Notifications", "Task Queue", "Monitoring"],
     githubUrl: "https://github.com/KlevisKoloshi1/Task_Scheduling_System",
   },
+  {
+    title: "E-School - School Management System",
+    description: "A comprehensive desktop-style web application for managing school operations including teachers, classes, students, grades, absences, lesson topics, activities, and announcements.The platform supports multiple user roles and is fully localized in English and Albanian, offering a modern, intuitive interface for educational institutions.",
+    techStack: ["React 18 + Vite", "React Router", "i18next / react-i18next", "Axios", "Tailwind CSS", "REST API", "Laravel", "PostgreSQL"],
+    features: ["Role-Based Access", "Localization", "CRUD Operations", "Responsive Design", "API Integration"],
+    githubUrl: "https://github.com/KlevisKoloshi1/SchoolManagement",
+},
 ];
 
 export function Projects() {
