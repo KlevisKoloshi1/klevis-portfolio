@@ -42,6 +42,13 @@ const projects: Project[] = [
     features: ["Role-Based Access", "Localization", "CRUD Operations", "Responsive Design", "API Integration"],
     githubUrl: "https://github.com/KlevisKoloshi1/SchoolManagement",
 },
+  {
+    title: "DocuCloud - Cloud Document Management SaaS",
+    description: "A full-stack Laravel-based cloud document management platform designed for secure file storage, sharing, and advanced document versioning. This system enables users to upload documents, manage versions, collaborate with others, and restore previous versions with ease.",
+    techStack: ["CRUD Operations", "Authentication", "Document Upload & Storage", "Document Versioning", "Document Sharing", "Search Functionality", "Data Validation", "Authorization Policies"],
+    features: ["Laravel", "PostgreSQL", "REST API", "Laravel Blade"],
+    githubUrl: "https://github.com/KlevisKoloshi1/docs_version.git",
+  },
 ];
 
 export function Projects() {
