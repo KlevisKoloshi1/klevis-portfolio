@@ -13,7 +13,7 @@ const responsibilities = [
   "Created and managed Dockerfiles and docker-compose setups for Laravel, PostgreSQL, and Redis"
 ];
 
-const technologies = ["PHP", "Laravel", "PostgreSQL", "REST APIs", "Git", "GitHub", "GitLab", "Ubuntu", "Virtual Machines", "DBeaver", "MobaXterm", "Docker"];
+const technologies = ["PHP", "Laravel", "PostgreSQL", "REST APIs", "Git", "GitHub", "GitLab", "Ubuntu", "Virtual Machines", "DBeaver", "MobaXterm", "Docker", "Jenkis", "Render"];
 
 export function Experience() {
   return (
